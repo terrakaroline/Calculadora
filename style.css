@@ -2,7 +2,6 @@
 body {
     margin: 0;
     display: flex;
-    height: 100vh;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -40,7 +39,7 @@ button {
     justify-content: end;
 }
 
-.botoes {
+.buttons {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

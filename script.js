@@ -3,7 +3,7 @@ let buffer = "0";
 let previousOperator = null;
 const screen = document.querySelector('.screen');
 
-document.querySelector('.botoes').addEventListener("click", function(event) {
+document.querySelector('.buttons').addEventListener("click", function(event) {
     buttonClick(event.target.innerText);
 })
 
